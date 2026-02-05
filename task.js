@@ -14,7 +14,7 @@ function OddEven(number) {
         number = number * 2
     }
     else if (number % 2 === 0) {
-        number = number % 2;
+        number = number / 2;
     }
     return number;
 }
